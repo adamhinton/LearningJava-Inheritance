@@ -44,4 +44,10 @@ public class Dog extends Animal{
     public void makeNoise(){
 
     }
+
+    @Override
+    public void move(String speed) {
+        super.move(speed);
+        System.out.println("Dogs walk, run and wag tails");
+    }
 }
