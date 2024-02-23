@@ -2,22 +2,26 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Animal animal = new Animal("Generic Animal", "Huge", 400);
+//        Animal animal = new Animal("Generic Animal", "Huge", 400);
+//
+//        doAnimalStuff(animal, "slow");
+//
+//        Dog dog = new Dog();
+//        // Dog is a type of Animal so it can be called here even though the fxn expects an Animal
+//        doAnimalStuff(dog, "fast");
+//
+//        Dog yorkie = new Dog ("Yorkie", 15);
+//        doAnimalStuff(yorkie, "fast");
+//
+//        Dog retriever = new Dog("Labrador retriever", 65, "Floppy", "Swimmer");
+//        doAnimalStuff(retriever, "slow");
+//
+//        Dog wolf = new Dog("Wolf", 40);
+//        doAnimalStuff(wolf, "slow");
 
-        doAnimalStuff(animal, "slow");
+        Fish goldie = new Fish("Goldfish", 0.25, 2, 3);
 
-        Dog dog = new Dog();
-        // Dog is a type of Animal so it can be called here even though the fxn expects an Animal
-        doAnimalStuff(dog, "fast");
-
-        Dog yorkie = new Dog ("Yorkie", 15);
-        doAnimalStuff(yorkie, "fast");
-
-        Dog retriever = new Dog("Labrador retriever", 65, "Floppy", "Swimmer");
-        doAnimalStuff(retriever, "slow");
-
-
-
+        doAnimalStuff(goldie, "fast");
     }
 
     public static void doAnimalStuff(Animal animal, String speed){

@@ -42,7 +42,7 @@ public class Dog extends Animal{
     //     This will be called instead of Animal's makeNoise
     // This is the same kind of method override
     public void makeNoise(){
-        if(super.type == "Wolf"){
+        if(type == "Wolf"){
             System.out.print("Ow woooo");
         }
 
