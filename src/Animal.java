@@ -3,7 +3,8 @@
 
 public class Animal {
 
-    private String type;
+    // Protected means subclass can access
+    protected String type;
     private String size;
     private double weight;
 
